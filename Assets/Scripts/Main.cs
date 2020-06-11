@@ -24,12 +24,11 @@ public class Main : MonoBehaviour
         wait,
         input,
         waitForInput,
-        check
+        check,
+        over
     };
     appState state;
     int count;
-
-    bool isPass;
 
     // Start is called before the first frame update
     void Start()
@@ -37,9 +36,8 @@ public class Main : MonoBehaviour
         data = new Data();
         data.setVocabularysArray();
 
-        state = appState.wait;
         count = 0;
-        isPass = false;
+        state = appState.wait;
     }
 
     // Update is called once per frame
@@ -56,6 +54,12 @@ public class Main : MonoBehaviour
                 break;
             case appState.check:
                 Check();
+                break;
+            case appState.over:
+                Reset();
+                break;
+            default:
+                print("state error " + state);
                 break;
         }
     }
@@ -161,7 +165,15 @@ public class Main : MonoBehaviour
         CleanAllInput();
         CleanAllText();
         count++;
-        state = appState.input;
+
+        if (count >= data.VocabularysList.Count)
+        {
+            state = appState.over;
+        }
+        else
+        {
+            state = appState.input;
+        }
     }
 
     void CleanAllInput()
@@ -180,5 +192,18 @@ public class Main : MonoBehaviour
         SynonymsText.GetComponent<Text>().text = "";
         AntonymText.GetComponent<Text>().text = "";
         ExtensionText.GetComponent<Text>().text = "";
+    }
+
+    void Reset()
+    {
+        count = 0;
+
+        VocabularyText.GetComponent<Text>().text = "VocabularyText";
+        SentenceText.GetComponent<Text>().text = "SentenceText";
+        SynonymsText.GetComponent<Text>().text = "SynonymsText";
+        AntonymText.GetComponent<Text>().text = "AntonymText";
+        ExtensionText.GetComponent<Text>().text = "ExtensionText";
+
+        state = appState.wait;
     }
 }
