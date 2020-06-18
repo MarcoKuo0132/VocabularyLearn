@@ -79,6 +79,7 @@ public class Data
             }
         );
 
+        //6
         VocabularysList.Add(new VocabularyBase
             {
                 Vocabulary_en = "across",
@@ -136,6 +137,7 @@ public class Data
             }
         );
 
+        //11
         VocabularysList.Add(new VocabularyBase
             {
                 Vocabulary_en = "address",
@@ -193,6 +195,7 @@ public class Data
             }
         );
 
+        //16
         VocabularysList.Add(new VocabularyBase
             {
                 Vocabulary_en = "again",
@@ -251,6 +254,7 @@ public class Data
             }
         );
 
+        //21
         VocabularysList.Add(new VocabularyBase
             {
                 Vocabulary_en = "agreement",
@@ -308,6 +312,7 @@ public class Data
             }
         );
 
+        //26
         VocabularysList.Add(new VocabularyBase
             {
                 Vocabulary_en = "airport",
@@ -363,6 +368,184 @@ public class Data
                 Synonyms = null,
                 Antonym = null,
                 Extension_en = null
+            }
+        );
+
+        //31
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "along",
+                Vocabulary_tw = "沿著",
+                Sentence_en = null,
+                Synonyms = "by the side of",
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "already",
+                Vocabulary_tw = "已經",
+                Sentence_en = "I have already done my report.",
+                Sentence_tw = "我的報告做完了。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "also",
+                Vocabulary_tw = "也",
+                Sentence_en = "He is also a teacher.",
+                Sentence_tw = "他也是個老師。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "always",
+                Vocabulary_tw = "總是",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = "never",
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "am",
+                Vocabulary_tw = "(用於第一人稱單數)是",
+                Sentence_en = "I am a hard-working student.",
+                Sentence_tw = "我是個用功的學生。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        //36
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "among",
+                Vocabulary_tw = "在...之中",
+                Sentence_en = "Among those students, Tim is the smartest one.",
+                Sentence_tw = "在這些學生中，提姆是最聰明的。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "and",
+                Vocabulary_tw = "和;以及",
+                Sentence_en = null,
+                Synonyms = "as well as",
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "anger",
+                Vocabulary_tw = "生氣",
+                Sentence_en = null,
+                Synonyms = "rage",
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "angry",
+                Vocabulary_tw = "生氣的",
+                Sentence_en = "Mom was angry at me because I didn't go to school.",
+                Sentence_tw = "媽媽很生氣因為我沒去上學。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "animal",
+                Vocabulary_tw = "動物",
+                Sentence_en = null,
+                Synonyms = "creature",
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        //41
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "another",
+                Vocabulary_tw = "另一個的",
+                Sentence_en = "This spoon is dirty. Give me another one.",
+                Sentence_tw = "這湯匙髒了。給我另外一個。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "answer",
+                Vocabulary_tw = "回答",
+                Sentence_en = "Can you answer the phone for me?",
+                Sentence_tw = "能幫我接個電話嗎?",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "ant",
+                Vocabulary_tw = "螞蟻",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = "have ants in one's pants",
+                Extension_tw = "坐立難安"
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "any",
+                Vocabulary_tw = "任何的",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = "in any way",
+                Extension_tw = "無論如何"
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "anything",
+                Vocabulary_tw = "任何的",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = "in any way",
+                Extension_tw = "無論如何"
             }
         );
     }
