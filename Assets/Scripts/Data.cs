@@ -540,12 +540,224 @@ public class Data
         VocabularysList.Add(new VocabularyBase
             {
                 Vocabulary_en = "anything",
-                Vocabulary_tw = "任何的",
+                Vocabulary_tw = "任何事",
+                Sentence_en = "I will do anything for you.",
+                Sentence_tw = "我會為你做任何事",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        //46
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "ape",
+                Vocabulary_tw = "猿猴",
+                Sentence_en = null,
+                Synonyms = "primate",
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "appear",
+                Vocabulary_tw = "出現",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = "vanish",
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "apple",
+                Vocabulary_tw = "蘋果",
+                Sentence_en = "An apple a day keeps the doctor away.",
+                Sentence_tw = "一天一蘋果，醫生遠離我",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "April",
+                Vocabulary_tw = "四月",
                 Sentence_en = null,
                 Synonyms = null,
                 Antonym = null,
-                Extension_en = "in any way",
-                Extension_tw = "無論如何"
+                Extension_en = "April Fools' Day",
+                Extension_tw = "愚人節"
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "are",
+                Vocabulary_tw = "(用於第二人稱單數、複數)是",
+                Sentence_en = "We are family.",
+                Sentence_tw = "我們是一家人",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        //51
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "area",
+                Vocabulary_tw = "區域",
+                Sentence_en = null,
+                Synonyms = "region",
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "arm",
+                Vocabulary_tw = "手臂",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = "arm in arm",
+                Extension_tw = "臂挽臂地"
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "army",
+                Vocabulary_tw = "軍隊",
+                Sentence_en = null,
+                Synonyms = "troop",
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "around",
+                Vocabulary_tw = "在...四周",
+                Sentence_en = "The convenience store is open around the clock.",
+                Sentence_tw = "便利商店營業二十四小時",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "art",
+                Vocabulary_tw = "藝術",
+                Sentence_en = null,
+                Synonyms = "craft",
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        //56
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "as",
+                Vocabulary_tw = "和...一樣",
+                Sentence_en = null,
+                Synonyms = "like",
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "ask",
+                Vocabulary_tw = "問",
+                Sentence_en = "Can I ask you a question, Amy?",
+                Sentence_tw = "艾咪，我能問妳一個問題嗎?",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "at",
+                Vocabulary_tw = "在",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = "at night",
+                Extension_tw = "在晚上"
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "August",
+                Vocabulary_tw = "八月",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = "in August",
+                Extension_tw = "在八月"
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "aunt/auntie",
+                Vocabulary_tw = "姑姑;阿姨",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = "uncle",
+                Extension_en = null
+            }
+        );
+
+        //61
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "autumn",
+                Vocabulary_tw = "秋天",
+                Sentence_en = "Leaves turn yellow in autumn.",
+                Sentence_tw = "樹葉在秋天變黃了。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "away",
+                Vocabulary_tw = "離開",
+                Sentence_en = "The balloon flew away.",
+                Sentence_tw = "氣球飛走了。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "baby",
+                Vocabulary_tw = "嬰兒",
+                Sentence_en = null,
+                Synonyms = "infant",
+                Antonym = null,
+                Extension_en = null
             }
         );
     }
