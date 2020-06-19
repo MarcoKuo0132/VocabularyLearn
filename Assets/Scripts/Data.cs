@@ -760,5 +760,219 @@ public class Data
                 Extension_en = null
             }
         );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "back",
+                Vocabulary_tw = "背部",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = "behind someone's back",
+                Extension_tw = "在某人背後"
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "bad",
+                Vocabulary_tw = "壞的",
+                Sentence_en = "The mile on the table went bad.",
+                Sentence_tw = "桌上的牛奶壞了。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        //66
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "bag",
+                Vocabulary_tw = "袋子",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = "let the cat out of the bag",
+                Extension_tw = "洩密"
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "ball",
+                Vocabulary_tw = "球",
+                Sentence_en = null,
+                Synonyms = "globe",
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "balloon",
+                Vocabulary_tw = "氣球",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = "hot-air balloon",
+                Extension_tw = "熱氣球"
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "banana",
+                Vocabulary_tw = "香蕉",
+                Sentence_en = "Dad bought a brunch of bananas from the market.",
+                Sentence_tw = "爸爸從市場買了一串香蕉。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "band",
+                Vocabulary_tw = "樂團",
+                Sentence_en = null,
+                Synonyms = "group",
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        //71
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "bank",
+                Vocabulary_tw = "銀行",
+                Sentence_en = "Jeff is a teller in a bank.",
+                Sentence_tw = "傑夫是銀行行員",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "bar",
+                Vocabulary_tw = "條狀物",
+                Sentence_en = null,
+                Synonyms = "rod",
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "barber",
+                Vocabulary_tw = "理髮師",
+                Sentence_en = "I go to barber shop every three week.",
+                Sentence_tw = "我每三個禮拜去一次理髮廳。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "base",
+                Vocabulary_tw = "基礎",
+                Sentence_en = "Vocabulary is the base of a language.",
+                Sentence_tw = "單字是一個語言的基礎",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "baseball",
+                Vocabulary_tw = "棒球",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = "baseball cap",
+                Extension_tw = "棒球帽"
+            }
+        );
+
+        //76
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "basic",
+                Vocabulary_tw = "基礎的",
+                Sentence_en = null,
+                Synonyms = "primary",
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "basket",
+                Vocabulary_tw = "籃子",
+                Sentence_en = "Don't put all your eggs in one basket.",
+                Sentence_tw = "別把雞蛋放在同一個籃子裡",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "basketball",
+                Vocabulary_tw = "籃球",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = "basketball team",
+                Extension_tw = "籃球隊"
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "bat",
+                Vocabulary_tw = "蝙蝠",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = "blind as a bat",
+                Extension_tw = "有眼無珠"
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "bath",
+                Vocabulary_tw = "浴缸;洗澡",
+                Sentence_en = "My family had a hot spring bath yesterday.",
+                Synonyms = "我的家人昨天去泡溫泉",
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        //81
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "bathe",
+                Vocabulary_tw = "沐浴",
+                Sentence_en = null,
+                Synonyms = "take a bath",
+                Antonym = null,
+                Extension_en = null
+            }
+        );
     }
 }
