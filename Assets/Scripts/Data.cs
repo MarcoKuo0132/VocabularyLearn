@@ -974,5 +974,113 @@ public class Data
                 Extension_en = null
             }
         );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "bathroom",
+                Vocabulary_tw = "浴室",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = "go to the bathroom",
+                Extension_tw = "上廁所"
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "be",
+                Vocabulary_tw = "是",
+                Sentence_en = "Tony wants to be an architect.",
+                Sentence_tw = "湯尼想當個建築師。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "beach",
+                Vocabulary_tw = "海灘",
+                Sentence_en = "More and more young people like to play beach volleyball.",
+                Sentence_tw = "越來越多人喜歡打沙灘排球。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "bear",
+                Vocabulary_tw = "熊",
+                Sentence_en = "Mom gave me a bear hug as soon as she saw me.",
+                Sentence_tw = "媽媽看到我時，給了我一個深深地擁抱。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        //86
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "beat",
+                Vocabulary_tw = "打",
+                Sentence_en = null,
+                Synonyms = "hit",
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "beautiful",
+                Vocabulary_tw = "美麗的",
+                Sentence_en = null,
+                Synonyms = "attractive",
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "beatuty",
+                Vocabulary_tw = "美人",
+                Sentence_en = "Have you ever seen the movie, Beauty and the Beast?",
+                Sentence_tw = "你有看過電影'美女與野獸'嗎?",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "because",
+                Vocabulary_tw = "因為",
+                Sentence_en = "Jenny was late today because she overslept this morning.",
+                Sentence_tw = "珍妮今天遲到了，因為她早上睡過頭。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "become",
+                Vocabulary_tw = "成為",
+                Sentence_en = null,
+                Synonyms = "turn into",
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        //91
     }
 }
