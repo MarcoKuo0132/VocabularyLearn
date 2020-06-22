@@ -1082,5 +1082,244 @@ public class Data
         );
 
         //91
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "bed",
+                Vocabulary_tw = "床",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = "get out of bed",
+                Extension_tw = "下床"
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "bee",
+                Vocabulary_tw = "蜜蜂",
+                Sentence_en = "Dad is as busy as a bee on the weekday.",
+                Sentence_tw = "爸爸在上班日忙得不可開交。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "before",
+                Vocabulary_tw = "在...之前",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = "after",
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "begin",
+                Vocabulary_tw = "開始",
+                Sentence_en = "She began to cry after she heard the bad news.",
+                Sentence_tw = "她聽到噩耗後便開始哭泣。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "behind",
+                Vocabulary_tw = "在...背後",
+                Sentence_en = null,
+                Synonyms = "at the back of",
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "believe",
+                Vocabulary_tw = "相信",
+                Sentence_en = "Do you believe in God?",
+                Sentence_tw = "你信仰上帝嗎?",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "bell",
+                Vocabulary_tw = "鈴",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = "ring a bell",
+                Extension_tw = "聽起來耳熟"
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "belong",
+                Vocabulary_tw = "屬於",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = "belong to",
+                Extension_tw = "屬於"
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "below",
+                Vocabulary_tw = "在...之下",
+                Sentence_en = null,
+                Synonyms = "under",
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "best",
+                Vocabulary_tw = "最好的",
+                Sentence_en = "This is the best car I've ever seen.",
+                Sentence_tw = "這是我看過最好的車。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        //101
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "between",
+                Vocabulary_tw = "在...之間",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = "between...and...",
+                Extension_tw = "在...之間"
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "bicycle",
+                Vocabulary_tw = "腳踏車",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = "ride a bicycle",
+                Extension_tw = "騎腳踏車"
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "big",
+                Vocabulary_tw = "大的",
+                Sentence_en = null,
+                Synonyms = "huge",
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "bike",
+                Vocabulary_tw = "腳踏車",
+                Sentence_en = "I used to ride a bike to school when I was a junior hight school student.",
+                Sentence_tw = "當我高中時，我騎腳踏車上學。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "bird",
+                Vocabulary_tw = "鳥",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = "a little bird told me",
+                Extension_tw = "聽說"
+            }
+        );
+
+        //106
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "birth",
+                Vocabulary_tw = "出生",
+                Sentence_en = "The mother panda gave birth to a baby panda.",
+                Sentence_tw = "母熊貓生了一隻小熊貓",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "bit",
+                Vocabulary_tw = "小塊",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = "bits and pieces",
+                Extension_tw = "零星物品"
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "bite",
+                Vocabulary_tw = "咬",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = "bite off more than one can chew",
+                Extension_tw = "不自量力"
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "black",
+                Vocabulary_tw = "黑的",
+                Sentence_en = "Peter was considered the black sheep of the contest.",
+                Sentence_tw = "彼得被認為是這場比賽的害群之馬。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "block",
+                Vocabulary_tw = "街區",
+                Sentence_en = "Turn right after two blocks, and you will see the post office.",
+                Sentence_tw = "過兩個街區後右轉，你就會看到郵局。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        //111
     }
 }
