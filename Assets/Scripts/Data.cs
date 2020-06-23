@@ -1321,5 +1321,194 @@ public class Data
         );
 
         //111
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "blood",
+                Vocabulary_tw = "血",
+                Sentence_en = "Blood is thicker than water.",
+                Sentence_tw = "血濃於水。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "blow",
+                Vocabulary_tw = "吹響",
+                Sentence_en = "The soldier is blowing the horn.",
+                Sentence_tw = "士兵吹響號角。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "blue",
+                Vocabulary_tw = "藍色的",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = "out of the blue",
+                Extension_tw = ""
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "boat",
+                Vocabulary_tw = "小船",
+                Sentence_en = "We are now in the same boat.",
+                Sentence_tw = "我們現在在同一艘船上。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "body",
+                Vocabulary_tw = "身體",
+                Sentence_en = null,
+                Synonyms = "flesh",
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        //116
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "bone",
+                Vocabulary_tw = "骨頭",
+                Sentence_en = "Johnson had a broken bone in his foot during the game.",
+                Sentence_tw = "強生在比賽過程中摔斷腿。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "book",
+                Vocabulary_tw = "書",
+                Sentence_en = null,
+                Synonyms = "volume",
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "born",
+                Vocabulary_tw = "出生的",
+                Sentence_en = "Peter was born and bred in Taiwan.",
+                Sentence_tw = "彼得是個土生土長的台灣人。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "both",
+                Vocabulary_tw = "雙方的",
+                Sentence_en = "Don't burn the candle at both ends.",
+                Sentence_tw = "別蠟燭兩頭燒。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "bottom",
+                Vocabulary_tw = "底部",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = "top",
+                Extension_en = null,
+            }
+        );
+
+        //121
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "bowl",
+                Vocabulary_tw = "碗",
+                Sentence_en = null,
+                Synonyms = "container",
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "box",
+                Vocabulary_tw = "盒子",
+                Sentence_en = "My boyfriend gave me a box of chocolates as a birthday present.",
+                Sentence_tw = "我男朋友給我一盒巧克力當作生日禮物。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "boy",
+                Vocabulary_tw = "男孩",
+                Sentence_en = null,
+                Synonyms = null,
+                Antonym = "girl",
+                Extension_en = null,
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "brave",
+                Vocabulary_tw = "勇敢的",
+                Sentence_en = "The brave little girl saved her father.",
+                Sentence_tw = "那勇敢的小女孩救了她的父親。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "bread",
+                Vocabulary_tw = "麵包",
+                Sentence_en = "Dad bought a loaf of French bread for me.",
+                Sentence_tw = "爸爸幫我買了一條法國麵包。",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
+
+        //126
+        VocabularysList.Add(new VocabularyBase
+            {
+                Vocabulary_en = "break",
+                Vocabulary_tw = "損壞",
+                Sentence_en = "Who broke the window of our front door?",
+                Sentence_tw = "誰打破了我們前門的玻璃?",
+                Synonyms = null,
+                Antonym = null,
+                Extension_en = null,
+            }
+        );
     }
 }
